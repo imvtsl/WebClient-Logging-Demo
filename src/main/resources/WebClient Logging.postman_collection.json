@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "fc5cd9ba-2192-4fe3-a38d-704157ba2196",
+		"name": "WebClient Logging",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19629055"
+	},
+	"item": [
+		{
+			"name": "create author",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/projects/webclient/logging/demo/v1/author/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"projects",
+						"webclient",
+						"logging",
+						"demo",
+						"v1",
+						"author",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
